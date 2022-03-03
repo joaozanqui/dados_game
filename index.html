@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo de Dados</title>
+    <link rel="icon" href="images/dice-cube.png">
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/bd8b14d146.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="top">
+        <h1 id="title-top">Aperte o botão para jogar</h1>
+    </section>
+
+    <section id="game">
+        <div id="dados" class="row">
+            <div class="col-lg-6">
+                <h2>Jogador 1</h2>
+                <img id="dado-esq" src="images/dado-6.png" alt="dado">
+            </div>
+
+            <div class="col-lg-6">
+                <h2>Jogador 2</h2>
+                <img id="dado-dir" src="images/dado-6.png" alt="dado">
+            </div>
+        </div>
+        <button class="btn-jogar" onclick="game()"><i class="fa-solid fa-circle-play"></i> Jogar</button>
+    </section>
+
+    <section id="bottom">
+        <h2>João Pedro de Freitas Zanqui</h2>
+        <h3 id="email"><i class="fa-solid fa-envelope"></i> JPZANQUI@HOTMAIL.COM <button onclick="copyPaste()"
+                id="btn-copy">Copiar</button>
+        </h3>
+    </section>
+
+    <script src="index.js" charset="UTF-8"></script>
+</body>
+
+</html>

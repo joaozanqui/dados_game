@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Indie Flower';
+    background-color: #BFE7FF;
+}
+
+h1 {
+    color: #030633;
+}
+
+h2,
+h3 {
+    color: #0462DB;
+    font-weight: bolder;
+}
+
+img {
+    width: 60%;
+}
+
+/* TOP */
+#title-top {
+    font-family: 'Lobster';
+    font-size: 8rem;
+    text-shadow: 0 3px 6px #000000;
+}
+
+/* GAME */
+#game {
+    font-family: 'Lobster';
+    margin: 4% 30%;
+}
+
+#dados {
+    margin-bottom: 10%;
+}
+
+.btn-jogar {
+    font-size: 2rem;
+    border: none;
+    border-radius: 50%;
+    background-color: #BFE7FF;
+    color: #0462DB;
+}
+
+.btn-jogar:hover {
+    color: #0153be;
+}
+
+/* BOTTOM */
+#bottom {
+    margin-top: 5%;
+}
+
+#bottom h2 {
+    font-size: 1rem;
+}
+
+#email {
+    margin-top: -0.5%;
+    font-size: 0.8rem;
+}
+
+#btn-copy {
+    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    font-weight: 800;
+    border: solid #337FED 1px;
+}
+
+#btn-copy:hover {
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+}
+
+.fa-envelope {
+    color: #030633;
+}
